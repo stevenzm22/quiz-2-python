@@ -38,6 +38,7 @@ class Juego:
                     lista[index + 1] = apartado
             
                     print(lista)
+                    break
             
 
 
@@ -50,7 +51,7 @@ class Juego:
         abecederaio=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","ñ","o","p","q","r","s","t","u","v","w","x","y","z"]
 
         for index in mensaje:
-            print(index)
+          
             if index in abecederaio:
                 #letra = abecederaio
                 num = abecederaio.index(index)

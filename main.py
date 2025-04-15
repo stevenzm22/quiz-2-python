@@ -17,6 +17,8 @@ def main():
         if opcion == "1":
             juego.iniciar_juego()
         elif opcion == "2":
+            juego.jueguito2()
+        elif opcion == "3":
             juego.salir()
             valor=False
         else:
